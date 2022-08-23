@@ -8,7 +8,7 @@
     },
     "files": [
         "MakeCode-Extension/README.md",
-        "MakeCode-Extension/SonicPiOSC.ts"
+        "MakeCode-Extension/MIDI-Messages.ts"
     ],
     "testFiles": [
         "MakeCode-Extension/tests.ts"
