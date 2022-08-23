@@ -73,7 +73,7 @@ enum MIDIMessageType {
 
 //% color="#daa520" weight=90 icon="\uf001" block="MIDI Messages"
 namespace midiMessages {
-    let globalChannel = 10;
+    let globalChannel = 1;
 
     function validateRange(value: number, lowerLimit: number, upperLimit: number): number {
         if (value < lowerLimit) {
@@ -227,7 +227,7 @@ namespace midiMessages {
     //% group="Commands"
     //% weight=10
     //% expandableArgumentMode="enabled"
-    //% pitch.defl=2000
+    //% pitch.defl=8192
     //% channel.defl=1
     export function pitchBend(pitch: number, channel: number = null): string {
         let validatedPitch = validatePitch(pitch);
