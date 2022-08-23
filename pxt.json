@@ -1,0 +1,17 @@
+{
+    "name": "MIDI Messages",
+    "version": "1.0.0",
+    "description": "Construct MIDI messages that can be sent to Node RED for forwarding to MIDI devices.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "MakeCode-Extension/README.md",
+        "MakeCode-Extension/SonicPiOSC.ts"
+    ],
+    "testFiles": [
+        "MakeCode-Extension/tests.ts"
+    ],
+    "public": true
+}
